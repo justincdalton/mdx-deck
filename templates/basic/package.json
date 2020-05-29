@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@mdx-deck/basic-template",
+  "name": "state-machines-deck",
   "version": "4.1.1",
   "scripts": {
     "start": "mdx-deck deck.mdx",
@@ -8,6 +8,15 @@
     "help": "mdx-deck"
   },
   "devDependencies": {
-    "mdx-deck": "^4.1.1"
-  }
+    "mdx-deck": "^3.0.13"
+  },
+  "dependencies": {
+    "@code-surfer/themes": "3.1.1",
+    "@material-ui/core": "4.10.0",
+    "@xstate/react": "0.8.1",
+    "code-surfer": "3.1.1",
+    "mdx-deck-code-surfer": "0.5.5"
+  },
+  "keywords": [],
+  "description": ""
 }
